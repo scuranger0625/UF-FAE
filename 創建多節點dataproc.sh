@@ -1,0 +1,15 @@
+gcloud dataproc clusters create saml-d3 \
+  --project=optimal-transit-464815-n2 \
+  --region=us-central1 \
+  --zone=us-central1-a \
+  --master-machine-type=n2-standard-4 \
+  --worker-machine-type=n2-highmem-4 \
+  --num-workers=4 \
+  --master-boot-disk-size=200 \
+  --worker-boot-disk-size=200 \
+  --image-version=2.1-debian11 \
+  --bucket=saml-d \
+  --enable-component-gateway \
+  --optional-components=JUPYTER,ZEPPELIN \
+  --labels=env=experiment \
+  --max-idle=30m

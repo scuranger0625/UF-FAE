@@ -1,4 +1,4 @@
-# UF-FAE: Union-Find based Feature-Augmented Embedding for Scalable Anti-Money Laundering in Blockchain
+# UF-FAE: Union-Find based Feature-Augmented Embedding for Scalable Anti-Money Laundering in Blockchain Technology
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
